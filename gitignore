@@ -1,0 +1,36 @@
+# macOS system files
+.DS_Store
+.Trash
+.localized
+
+# IDE files
+.vscode/
+.idea/
+.eclispe/
+.settings/
+
+# Java & .NET build artifacts
+bin/
+target/
+out/
+*.class
+*.jar
+*.dll
+*.exe
+*.pdb
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Other hidden folders
+.npm/
+.m2/
+.conda/
+.virtualenvs/
+.cache/
