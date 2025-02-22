@@ -1,3 +1,9 @@
 chrome.runtime.onInstalled.addListener(() => {
-  console.log("AI Text Autocomplete Extension Installed");
+  chrome.storage.local.set({ enabled: true });
+});
+
+chrome.storage.onChanged.addListener((changes) => {
+  if ("enabled" in changes) {
+    console.log("Extension enabled state:", changes.enabled.newValue);
+  }
 });
