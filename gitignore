@@ -8,7 +8,7 @@
 .idea/
 .eclispe/
 .settings/
-
+.env*
 # Java & .NET build artifacts
 bin/
 target/
@@ -22,7 +22,7 @@ out/
 # Node.js dependencies
 node_modules/
 package-lock.json
-
+*node_modules*
 # Python caches
 __pycache__/
 *.pyc

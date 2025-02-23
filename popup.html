@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Email Autocomplete</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup-container">
+        <h2>AI Email Autocomplete</h2>
+        
+        <label class="switch">
+            <input type="checkbox" id="toggle-ai">
+            <span class="slider"></span>
+        </label>
+        <span>Enable AI Suggestions</span>
+
+        <label for="completion-length">Max Completion Length:</label>
+        <input type="number" id="completion-length" min="10" max="100" value="50">
+        
+        <button id="save-settings">Save Settings</button>
+        <p id="status-message"></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
