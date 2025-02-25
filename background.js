@@ -2,29 +2,30 @@ chrome.runtime.onInstalled.addListener(() => {
     console.log("AI Email Autocomplete Extension Installed!");
 });
 
-// Listen for messages from content script
+// Listen for messages from the content script
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "fetchGROQCompletion") {
-        fetchGROQCompletion(request.text).then((completion) => {
-            sendResponse({ suggestion: completion });
-        });
-        return true; // Keeps the message channel open for async response
+        fetchGROQCompletion(request.text)
+            .then((completion) => sendResponse({ suggestion: completion }))
+            .catch((error) => {
+                console.error("Error fetching AI completion:", error);
+                sendResponse({ suggestion: "" });
+            });
+
+        return true; // Keep the message channel open for async response
     }
 });
-import Groq from "groq-sdk";
 
 // Function to call GROQ API
 async function fetchGROQCompletion(inputText) {
-    const API_URL = "https://api.groq.com/v1/completions";
-    const API_KEY = "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";  
-    const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });// Store this securely!
+    const API_URL = "https://api.groq.com/v1/completions"; // Ensure URL is correct
 
     try {
         const response = await fetch(API_URL, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${API_KEY}`
+                "Authorization": `Bearer ${await getAPIKey()}`
             },
             body: JSON.stringify({
                 model: "mixtral-8x7b",
@@ -34,9 +35,20 @@ async function fetchGROQCompletion(inputText) {
         });
 
         const data = await response.json();
-        return data.choices[0].text.trim();
+        console.log("GROQ Response:", data); // 🔍 Debugging Log
+
+        return data.choices[0]?.text?.trim() || "";
     } catch (error) {
         console.error("Error fetching AI completion:", error);
         return "";
     }
+}
+
+// Function to retrieve API Key from Chrome Storage
+async function getAPIKey() {
+    return new Promise((resolve) => {
+        chrome.storage.sync.get(["groqApiKey"], (result) => {
+            resolve(result.groqApiKey || "");
+        });
+    });
 }

@@ -1,25 +1,21 @@
 {
-    "manifest_version": 3,
-    "name": "AI Email Autocomplete",
-    "version": "1.0",
-    "description": "Use AI to autocomplete Gmail emails using GROQ",
-    "permissions": ["storage", "activeTab", "scripting"],
-    "host_permissions": ["https://mail.google.com/*"],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [
-      {
-        "matches": ["https://mail.google.com/*"],
-        "js": ["content.js"],
-        "css": ["styles.css"]
-      }
-    ],
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-       
-      }
+  "manifest_version": 3,
+  "name": "AI Email Autocomplete",
+  "version": "1.0",
+  "permissions": ["storage", "scripting", "activeTab",  "webNavigation",
+  "tabs", "identity", "identity.email"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
     }
+  ],
+  "action": {
+    "default_popup": "popup.html"
   }
-  
+}
