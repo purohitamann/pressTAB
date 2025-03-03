@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "groq-sdk": "^0.15.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.9"
+  }
+}

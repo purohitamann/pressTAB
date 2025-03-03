@@ -1,0 +1,1476 @@
+2025-03-02T06:36:14.102Z [INFO]: Server is running on http://localhost:5001
+2025-03-02T06:40:58.635Z [INFO]: Processing autocomplete request for text: "I would like to discuss the project, can you please"
+2025-03-02T06:40:59.026Z [INFO]: Generated suggestion: "Here are a few email subject and body suggestions based on the text:
+
+**Subject:** Project discussion
+
+**Body:** I would like to discuss the project, can you please clarify the timeline for the upcoming deadline and also review the latest design revisions?
+
+or"
+2025-03-02T22:18:46.654Z [INFO]: Server is running on http://localhost:5001
+2025-03-02T22:25:50.794Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:25:51.243Z [INFO]: Generated suggestion: ""I hope this email finds you well, I wanted to""
+2025-03-02T22:26:13.513Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:26:13.797Z [INFO]: Generated suggestion: ""Hello, how are you doing today?""
+2025-03-02T22:26:49.856Z [INFO]: Server is running on http://localhost:5001
+2025-03-02T22:26:54.503Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:26:55.576Z [INFO]: Generated suggestion: "Suggested completion: "you doing today? I hope everything is going well. I wanted to reach out to..."
+
+Please feel free to continue typing or select one of the suggestions."
+2025-03-02T22:27:34.557Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:27:34.787Z [INFO]: Generated suggestion: ""I hope this email finds you well. I wanted to""
+2025-03-02T22:27:36.185Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:27:36.455Z [INFO]: Generated suggestion: ""I hope you're doing well. I wanted to reach out to you about...""
+2025-03-02T22:28:02.361Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:28:02.636Z [INFO]: Generated suggestion: ""I hope you're doing well. I wanted to follow up on...""
+2025-03-02T22:28:03.964Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:28:04.188Z [INFO]: Generated suggestion: ""Hello, how are you doing today and what's the status on the project we discussed last week?""
+2025-03-02T22:28:05.592Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-02T22:28:05.917Z [INFO]: Generated suggestion: ""Hello, how are you doing today?""
+2025-03-03T03:57:56.793Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T03:57:57.111Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T03:57:57.322Z [INFO]: Generated suggestion: ""I hope you're doing well. I wanted to reach out to you about...""
+2025-03-03T03:57:57.368Z [INFO]: Generated suggestion: ""Sincerely hoping this email finds you well. I wanted to...""
+2025-03-03T03:58:33.703Z [INFO]: Processing autocomplete request for text: "H
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:33.904Z [INFO]: Processing autocomplete request for text: "Hi
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:33.992Z [INFO]: Generated suggestion: "Here's a continuation:
+
+"Hiring Opportunities"
+
+or
+
+"Hello"
+
+or
+
+"Here's an update on"
+
+or
+
+"Have you considered"
+
+or
+
+"Hi"
+
+Which one would you like to choose?"
+2025-03-03T03:58:34.214Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+1. "Hi [Recipient], hope you're doing well. I wanted to follow up on..."
+2. "Hi [Recipient], I was thinking it would be great to discuss..."
+3. "Hi ["
+2025-03-03T03:58:36.986Z [INFO]: Processing autocomplete request for text: "H
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:37.224Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions for you:
+
+* "Hello"
+* "Hi"
+* "He"
+* "Hey"
+* "Hello there"
+
+Which one do you think fits the context best?"
+2025-03-03T03:58:37.619Z [INFO]: Processing autocomplete request for text: "--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:38.063Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+* "Thanks again for the opportunity to"
+* "I wanted to follow up on our previous discussion about"
+* "I'm excited to share with you my proposal for"
+* "I hope this email finds"
+2025-03-03T03:58:42.131Z [INFO]: Processing autocomplete request for text: "s
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.257Z [INFO]: Processing autocomplete request for text: "sv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.305Z [INFO]: Processing autocomplete request for text: "sv 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.362Z [INFO]: Processing autocomplete request for text: "sv s
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.404Z [INFO]: Generated suggestion: "Here's a possible continuation:
+
+"summary"
+
+This could be the start of a summary of a meeting, a project update, or a summary of a report."
+2025-03-03T03:58:42.431Z [INFO]: Processing autocomplete request for text: "sv sd
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.515Z [INFO]: Processing autocomplete request for text: "sv sdv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.570Z [INFO]: Generated suggestion: ""services"
+
+(I'm assuming you're trying to type "services" as the subject line)"
+2025-03-03T03:58:42.629Z [INFO]: Generated suggestion: "Here are a few autocomplete suggestions:
+
+* "Services"
+* "Support"
+* "Sales"
+* "Subscriptions"
+* "Solutions"
+
+Choose the one that best fits your email's content and purpose."
+2025-03-03T03:58:42.660Z [INFO]: Generated suggestion: "Here's a possible completion:
+
+"summary of our discussion on software development services and solutions"
+
+This completion seems to fit with the context of a discussion about software development services and solutions, and completes the sentence in a clear and concise manner."
+2025-03-03T03:58:42.668Z [INFO]: Processing autocomplete request for text: "sv sdvs
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.697Z [INFO]: Processing autocomplete request for text: "sv sdvsd
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.728Z [INFO]: Generated suggestion: "Here are a few suggestions:
+
+* "sv sales"
+* "sv support"
+* "sv services"
+* "sv solutions"
+* "sv statement"
+
+Please let me know if you'd like me to suggest more options or if one of these works"
+2025-03-03T03:58:42.767Z [INFO]: Processing autocomplete request for text: "sv sdvsdv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:42.831Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+1. "solutions for your business"
+2. "said about our services"
+3. "services we offer"
+4. "support team is available"
+5. "systems for your organization"
+
+Please let"
+2025-03-03T03:58:42.943Z [INFO]: Processing autocomplete request for text: "sv sdvsdvs
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.007Z [INFO]: Generated suggestion: "Here's a possible completion:
+
+"... Software Development Company. I am reaching out to inquire about potential opportunities for collaboration and knowledge sharing."
+
+Let me know if you'd like me to suggest more options!"
+2025-03-03T03:58:43.144Z [INFO]: Generated suggestion: "Here's a possible autocomplete suggestion:
+
+"sv sdvsd regarding our upcoming meeting on..."
+
+This could be a suggestion based on common phrases that often appear in email bodies, especially in a work-related context."
+2025-03-03T03:58:43.146Z [INFO]: Generated suggestion: "Here are a few suggestions:
+
+* "system validation and software development strategies"
+* "services and software development ventures"
+* "sales and support for our software development solutions"
+* "solutions and services for software development needs"
+* "software development and"
+2025-03-03T03:58:43.148Z [INFO]: Generated suggestion: "Here's a possible completion:
+
+"sv sdvsdvs
+summary of our recent meeting on [project/initiative name] where we discussed [key points]. I wanted to follow up on the action items we assigned to each other."
+
+Please note that"
+2025-03-03T03:58:43.281Z [INFO]: Processing autocomplete request for text: "sv sdvsdvss
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.387Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssf
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.404Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.473Z [INFO]: Generated suggestion: "Here's a possible completion for the subject line and the email body:
+
+**Subject:** Seeking Guidance on Project Proposal
+
+**Email Body:**
+
+sv sdvsdvss
+
+--
+
+Hi [Recipient],
+
+I hope this email finds you well. I've been"
+2025-03-03T03:58:43.571Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvs
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.579Z [INFO]: Generated suggestion: "Here are a few possible email subject line suggestions:
+
+* "Suggestion for [Topic/Project]"
+* "Follow up on [Topic/Project]"
+* "Question about [Topic/Project]"
+* "Update on [Topic/Project]"
+* ""
+2025-03-03T03:58:43.603Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+* "subject: sv sdvsdvssfv"
+* "subject: seeking feedback on [project/task]"
+* "subject: update on [project/task] status"
+* "subject: question about [topic"
+2025-03-03T03:58:43.686Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.849Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+1. "sv sdvsdvssfvs services"
+2. "sv sdvsdvssfvs support"
+3. "sv sdvsdvssfvs team"
+4. "sv sdvsdvssfvs"
+2025-03-03T03:58:43.881Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvd
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.883Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvds
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:43.929Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+1. "sv sdvsdvssfvsv services"
+2. "sv sdvsdvssfvsv support"
+3. "sv sdvsdvssfvsv schedule"
+4. "sv sdvs"
+2025-03-03T03:58:44.009Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsj
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.015Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.121Z [INFO]: Generated suggestion: "Based on the incomplete text, I'm suggesting a continuation:
+
+"summary of the project we discussed last week"
+
+This completion seems likely given the format of the sentence and the context of a work-related email."
+2025-03-03T03:58:44.131Z [INFO]: Generated suggestion: "Here are a few suggestions to complete the email:
+
+* "subject suggestion: Re: Meeting Request"
+* "subject suggestion: Follow-up on Project Update"
+* "subject suggestion: Question about Recent Changes"
+* "subject suggestion: Request for Meeting to"
+2025-03-03T03:58:44.237Z [INFO]: Generated suggestion: "Here's a possible completion:
+
+"subject: Solution for [company name] project"
+
+This completion is a common pattern for emails that are follow-ups or responses to a project or proposal. It's a simple and clear way to indicate the topic of the"
+2025-03-03T03:58:44.256Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions based on the context:
+
+* "sv sdvsdvssfvsvdsjv... support"
+* "sv sdvsdvssfvsvdsjv... services"
+* "sv sdvsdvssfv"
+2025-03-03T03:58:44.270Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJ
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.318Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJD
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.320Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJDV
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.524Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJDVS
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.580Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJDVSD
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.656Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJDVSDV
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:44.776Z [INFO]: Generated suggestion: "Here's a possible completion for the email:
+
+"subject: [Suggestion] Follow up on meeting request for [Date/Project]
+
+sv sdvsdvssfvsvdsjvJ
+
+Dear [Recipient],
+
+"
+
+The suggested subject is a common"
+2025-03-03T03:58:44.825Z [INFO]: Generated suggestion: "Based on the incomplete email, I'll suggest a possible completion:
+
+"Subject: [Your Subject]
+
+Dear [Recipient],
+
+I'm reaching out to [briefly mention the purpose of the email]."
+
+This completion provides a basic structure for the email,"
+2025-03-03T03:58:44.868Z [INFO]: Generated suggestion: "Here are a few autocomplete suggestions:
+
+* "service"
+* "support"
+* "status"
+* "statement"
+* "summary"
+* "statement regarding"
+* "technical support"
+* "status update"
+
+Choose the one that best completes the subject"
+2025-03-03T03:58:44.878Z [INFO]: Generated suggestion: "Here's a possible suggestion:
+
+"Suggestion: Summary of our previous discussion on [topic] regarding [specific issue or question]."
+
+Or, if the user is trying to send an email to a customer or client:
+
+"Suggestion: Follow-up on order"
+2025-03-03T03:58:44.895Z [INFO]: Generated suggestion: "Here's a possible completion:
+
+"sv sdvsdvssfvsvdsjvJD
+
+I hope this email finds you well. Could you please let me know if you have any availability to discuss..."
+
+Suggested subject: Potential Meeting Opportunity?
+
+Your"
+2025-03-03T03:58:45.043Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+* "subject: Suggested subject"
+* "subject: Follow up on"
+* "subject: Inquiry about"
+* "subject: Request for"
+* "subject: Feedback on"
+
+Let me know if you"
+2025-03-03T03:58:45.996Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJDVSD
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:46.189Z [INFO]: Generated suggestion: "It looks like the email is missing a subject line and the user is typing a message. Here's a suggested continuation:
+
+"sv sdvsdvssfvsvdsjvJDVSD
+
+Hi [Recipient],
+
+Could you please clarify..."
+
+This suggests"
+2025-03-03T03:58:46.492Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJDVS
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:46.572Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJDV
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:46.657Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJD
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:46.740Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjvJ
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:46.771Z [INFO]: Generated suggestion: "Here's a possible completion:
+
+"No Subject
+
+I hope this email finds you well. I am reaching out to discuss the recent updates on the project and to confirm the timeline for the upcoming deadline.
+
+--
+
+Best Regards,
+Aman Purohit (he"
+2025-03-03T03:58:46.807Z [INFO]: Generated suggestion: "Here's a possible completion for the email:
+
+"Summary of our discussion on [Topic] and action items moving forward. Please find the details below."
+
+This completion is a common format for summarizing a conversation and outlining next steps. It also leaves room"
+2025-03-03T03:58:46.823Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsjv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:46.888Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+* "subject: service request"
+* "subject: support request"
+* "subject: urgent assistance needed"
+* "subject: follow up on previous conversation"
+* "subject: regarding the project"
+
+Choose the"
+2025-03-03T03:58:46.906Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvdsj
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:46.990Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvds
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:47.076Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsvd
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:47.162Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvsv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:49.247Z [INFO]: Generated suggestion: "Here are a few email subject suggestions:
+
+1. Re: [Possible previous conversation or unclear topic]
+2. Request for [Specific information or clarification]
+3. Follow-up on [Previous conversation or meeting]
+4. [Brief summary of the email's"
+2025-03-03T03:58:49.252Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfvs
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:51.159Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.964s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:51.162Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssfv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:51.180Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:51.182Z [INFO]: Processing autocomplete request for text: "sv sdvsdvssf
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:51.297Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.826s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:51.301Z [INFO]: Processing autocomplete request for text: "sv sdvsdvss
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:51.338Z [INFO]: Generated suggestion: "Here's a possible completion for the email:
+
+"subject: [Insert Subject]
+
+Hi [Recipient],
+
+I hope this email finds you well. I wanted to reach out to you about [insert topic or purpose of the email]. 
+
+--
+
+Best Regards,"
+2025-03-03T03:58:51.341Z [INFO]: Processing autocomplete request for text: "sv sdvsdvs
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:51.390Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.733s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:51.393Z [INFO]: Processing autocomplete request for text: "sv sdvsdv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:53.435Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.853s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:53.440Z [INFO]: Processing autocomplete request for text: "sv sdvsd
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:53.456Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+1. suggestions: "services"
+2. completion: "services we provide at our company"
+3. suggestion: "support"
+4. completion: "We will be happy to support you with any query you"
+2025-03-03T03:58:53.469Z [INFO]: Processing autocomplete request for text: "sv sdvs
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:55.483Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.891s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:55.488Z [INFO]: Processing autocomplete request for text: "sv sdv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:55.529Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.845s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:55.533Z [INFO]: Processing autocomplete request for text: "sv sd
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:55.592Z [INFO]: Generated suggestion: "Here's a possible autocomplete suggestion:
+
+"sv sdvsdvssf system not working properly, need help fixing"
+
+This suggestion completes the sentence and adds a clear and concise description of the issue, which could be a starting point for a helpful email."
+2025-03-03T03:58:55.596Z [INFO]: Processing autocomplete request for text: "sv s
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:55.662Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:55.664Z [INFO]: Processing autocomplete request for text: "sv 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:57.626Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:57.630Z [INFO]: Processing autocomplete request for text: "sv
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:57.735Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.882s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:57.740Z [INFO]: Processing autocomplete request for text: "s
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:58.229Z [INFO]: Generated suggestion: "Here are a few suggestions:
+
+* "sv sdv for your review"
+* "sv sdv feedback"
+* "sv sdv thoughts"
+* "sv sdv suggestions"
+* "sv sdv questions"
+
+Let me know if you'd like"
+2025-03-03T03:58:58.233Z [INFO]: Processing autocomplete request for text: "--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:59.781Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:59.796Z [INFO]: Processing autocomplete request for text: "H
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:59.890Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+1. "Software solutions for business growth sv sd"
+2. "Strategic vision for sustainable development sv sd"
+3. "Support services for your business needs sv sd"
+4. "Solutions for small"
+2025-03-03T03:58:59.892Z [INFO]: Processing autocomplete request for text: "HI
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:58:59.894Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.831s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:58:59.896Z [INFO]: Processing autocomplete request for text: "HI 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:01.923Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.917s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:01.925Z [INFO]: Processing autocomplete request for text: "HI I
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:01.961Z [INFO]: Generated suggestion: "Svend"
+2025-03-03T03:59:01.964Z [INFO]: Processing autocomplete request for text: "HI I 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:02.438Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.403s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:02.442Z [INFO]: Processing autocomplete request for text: "HI I A
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:04.076Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.907s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:04.080Z [INFO]: Processing autocomplete request for text: "HI I AM
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:04.116Z [INFO]: Generated suggestion: "Here's a suggestion:
+
+"Holiday Schedule"
+
+Would you like to continue with this or try a different option?"
+2025-03-03T03:59:04.119Z [INFO]: Processing autocomplete request for text: "HI I AM 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:04.158Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:04.162Z [INFO]: Processing autocomplete request for text: "HI I AM a
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:06.148Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.966s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:06.153Z [INFO]: Processing autocomplete request for text: "HI I AM am
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:06.293Z [INFO]: Generated suggestion: "...just wanted to follow up on our previous conversation about the project I'm working on."
+2025-03-03T03:59:06.297Z [INFO]: Processing autocomplete request for text: "HI I AM ama
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:06.637Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.478s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:06.640Z [INFO]: Processing autocomplete request for text: "HI I AM aman
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:08.310Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.963s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:08.332Z [INFO]: Processing autocomplete request for text: "HI I AM aman,
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:08.347Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.93s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:08.349Z [INFO]: Processing autocomplete request for text: "HI I AM aman, 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:08.440Z [INFO]: Generated suggestion: "Suggested completion: "HI I AM writing to"
+
+This is a common sentence structure for introductory emails, and it's a neutral and professional way to start a message."
+2025-03-03T03:59:08.443Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:10.510Z [INFO]: Generated suggestion: ""HI I AM interested in discussing the opportunities at your company"
+
+
+(Let me know if you'd like me to suggest more options or if this is what you were looking for!)"
+2025-03-03T03:59:10.514Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:10.534Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.809s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:10.537Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I a
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:10.847Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.495s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:10.851Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:12.534Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.995s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:12.538Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:12.635Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.893s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:12.639Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am p
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:12.695Z [INFO]: Generated suggestion: "Here's a possible suggestion:
+
+"HI I AM aman,
+
+I hope this email finds you well. I am reaching out to..."
+
+This completion provides a friendly greeting and a clear purpose for the email, which can help set a positive tone for the"
+2025-03-03T03:59:12.699Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pr
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:14.698Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.972s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:14.702Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pre
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:14.723Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.945s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:14.726Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am preg
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:14.844Z [INFO]: Generated suggestion: "...writing to inquire about the possibility of discussing a potential collaboration/ project opportunity/ meeting to explore how our skills align.
+
+(Note: I assumed the user is trying to reach out to someone for a professional collaboration or meeting. If that's not the case"
+2025-03-03T03:59:14.846Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pregn
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:15.035Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.631s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:15.040Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pregna
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:16.914Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.918s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:16.918Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pregnan
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:17.510Z [INFO]: Generated suggestion: "Suggested completion: "pleased to reach out to you today to discuss"
+
+New email subject: (none)
+
+New email body: "HI I AM aman, I am pleased to reach out to you today to discuss...""
+2025-03-03T03:59:17.514Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pregnant
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:18.936Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:18.942Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pregnantr
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:19.029Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.905s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:19.033Z [INFO]: Processing autocomplete request for text: "HI I AM aman, I am pregnant
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T03:59:19.231Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.71s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:19.590Z [INFO]: Generated suggestion: ""happy to reach out to you regarding an exciting opportunity/ project/ collaboration I came across that I think would be a great fit for your skills and expertise"
+
+(Let me know if you'd like me to suggest more options!)"
+2025-03-03T03:59:21.106Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.985s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:21.254Z [INFO]: Generated suggestion: "It seems like Aman is reaching out to someone about his pregnancy. Here are a few possible continuations:
+
+* "and excited to share the news with you..."
+* "...and would love to discuss any questions or concerns you may have."
+* "..."
+2025-03-03T03:59:21.706Z [ERROR]: Error generating autocomplete: Error: 429 {"error":{"message":"Rate limit reached for model `llama3-8b-8192` in organization `org_01jaef514yfw9v6936vwj5bz5s` service tier `on_demand` on requests per minute (RPM): Limit 30, Used 30, Requested 1. Please try again in 1.382s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"requests","code":"rate_limit_exceeded"}}
+2025-03-03T03:59:23.548Z [INFO]: Generated suggestion: "Here are a few email autocomplete suggestions:
+
+1. "with exciting news!"
+2. "and I wanted to share the details with you"
+3. "and I thought you'd be interested to know"
+4. "and I'm hoping you can"
+2025-03-03T04:04:04.506Z [INFO]: Server is running on http://localhost:5001
+2025-03-03T04:04:17.776Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:04:18.072Z [INFO]: Generated suggestion: ""you doing today?""
+2025-03-03T04:04:20.981Z [INFO]: Processing autocomplete request for text: "--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:21.260Z [INFO]: Generated suggestion: ""I hope this email finds you well."
+2025-03-03T04:04:21.883Z [INFO]: Processing autocomplete request for text: "h
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:22.016Z [INFO]: Processing autocomplete request for text: "hi
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:22.109Z [INFO]: Generated suggestion: "Here is a suggested continuation:
+
+"hello"
+
+This suggests a greeting in the email, which is a common and professional start to a message."
+2025-03-03T04:04:22.229Z [INFO]: Processing autocomplete request for text: "hi 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:22.305Z [INFO]: Generated suggestion: ""hope this email finds you well. I wanted to""
+2025-03-03T04:04:23.137Z [INFO]: Generated suggestion: ""hope this email finds you well, I wanted to follow up on our previous conversation about...""
+2025-03-03T04:04:43.914Z [INFO]: Processing autocomplete request for text: "hi 
+c
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:43.921Z [INFO]: Processing autocomplete request for text: "hi 
+ca
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:44.005Z [INFO]: Processing autocomplete request for text: "hi 
+cas
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:44.089Z [INFO]: Processing autocomplete request for text: "hi 
+casd
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:04:44.335Z [INFO]: Generated suggestion: ""can we discuss the possibility of meeting up to review the project proposal?""
+2025-03-03T04:04:44.381Z [INFO]: Generated suggestion: "I'd be happy to help! Based on the user's email, I suggest the following continuation:
+
+"Considering our previous discussions, I wanted to follow up on the project proposal we reviewed last week."
+
+This continuation maintains a professional tone and builds upon the"
+2025-03-03T04:04:44.509Z [INFO]: Generated suggestion: ""hope this email finds you well, I wanted to follow up on our meeting last week regarding""
+2025-03-03T04:04:44.769Z [INFO]: Generated suggestion: "Here is a suggested continuation:
+
+"I wanted to follow up on our previous discussion regarding"
+
+This continuation maintains a professional tone and is a common way to begin a follow-up email."
+2025-03-03T04:05:19.481Z [INFO]: Server is running on http://localhost:5001
+2025-03-03T04:05:34.441Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:05:34.772Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:05:37.135Z [INFO]: Processing autocomplete request for text: "hi 
+casds
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:37.226Z [INFO]: Processing autocomplete request for text: "hi 
+casdsd
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:37.311Z [INFO]: Processing autocomplete request for text: "hi 
+casdsdc
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:37.326Z [INFO]: Generated suggestion: "I hope this email finds you well."
+2025-03-03T04:05:37.514Z [INFO]: Generated suggestion: "I hope this email finds you well."
+2025-03-03T04:05:37.535Z [INFO]: Processing autocomplete request for text: "hi 
+casdsdcs
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:37.609Z [INFO]: Generated suggestion: "I hope this email finds you well."
+2025-03-03T04:05:37.780Z [INFO]: Generated suggestion: "I hope this email finds you well."
+2025-03-03T04:05:38.430Z [INFO]: Processing autocomplete request for text: "hi 
+casdsdc
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:38.667Z [INFO]: Generated suggestion: "I'd be happy to help you with that! Here's a suggestion:
+
+"hope this email finds you well, I wanted to reach out""
+2025-03-03T04:05:38.670Z [INFO]: Processing autocomplete request for text: "hi 
+casdsd
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:38.832Z [INFO]: Processing autocomplete request for text: "hi 
+casds
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:39.003Z [INFO]: Processing autocomplete request for text: "hi 
+casd
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:39.113Z [INFO]: Generated suggestion: "Unfortunately, I couldn't understand the context of your email. Could you please clarify what you would like to discuss or request?""
+2025-03-03T04:05:39.173Z [INFO]: Processing autocomplete request for text: "hi 
+cas
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:39.211Z [INFO]: Generated suggestion: "I've reviewed the email and suggest the following completion:
+
+I hope this email finds you well."
+2025-03-03T04:05:39.215Z [INFO]: Generated suggestion: "I'd be happy to help!
+
+hi
+
+Could you clarify the purpose of your email regarding the recent project collaboration?"
+2025-03-03T04:05:39.343Z [INFO]: Processing autocomplete request for text: "hi 
+ca
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:39.347Z [INFO]: Generated suggestion: "Service"
+2025-03-03T04:05:39.546Z [INFO]: Processing autocomplete request for text: "hi 
+c
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:39.641Z [INFO]: Generated suggestion: "I hope this email finds you well."
+2025-03-03T04:05:39.751Z [INFO]: Generated suggestion: ""hope this email finds you well""
+2025-03-03T04:05:39.921Z [INFO]: Processing autocomplete request for text: "hi 
+
+
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:40.120Z [INFO]: Generated suggestion: ""hope this email finds you well""
+2025-03-03T04:05:40.469Z [INFO]: Processing autocomplete request for text: "hi 
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:40.661Z [INFO]: Processing autocomplete request for text: "hi
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:40.704Z [INFO]: Generated suggestion: "Hope you're doing well."
+2025-03-03T04:05:41.190Z [INFO]: Generated suggestion: "I hope this email finds you well."
+2025-03-03T04:05:42.471Z [INFO]: Processing autocomplete request for text: "hi 
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:42.722Z [INFO]: Generated suggestion: "I hope this email finds you well."
+2025-03-03T04:05:44.440Z [INFO]: Processing autocomplete request for text: "hi I
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:44.673Z [INFO]: Generated suggestion: "hope this email finds you well."
+2025-03-03T04:05:44.731Z [INFO]: Processing autocomplete request for text: "hi Im
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:44.926Z [INFO]: Generated suggestion: "having trouble with the project"
+2025-03-03T04:05:45.388Z [INFO]: Processing autocomplete request for text: "hi Im 
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:45.656Z [INFO]: Generated suggestion: ""happy to discuss our potential collaboration""
+2025-03-03T04:05:46.044Z [INFO]: Processing autocomplete request for text: "hi Im p
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:46.313Z [INFO]: Processing autocomplete request for text: "hi Im pr
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:46.371Z [INFO]: Generated suggestion: "pleased to reach out to you regarding"
+2025-03-03T04:05:46.506Z [INFO]: Processing autocomplete request for text: "hi Im pre
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:46.714Z [INFO]: Processing autocomplete request for text: "hi Im preg
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:46.842Z [INFO]: Generated suggestion: "hai problems resolving with"
+2025-03-03T04:05:46.875Z [INFO]: Processing autocomplete request for text: "hi Im prega
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:46.972Z [INFO]: Generated suggestion: "happy to help you with a project inquiry."
+2025-03-03T04:05:47.033Z [INFO]: Processing autocomplete request for text: "hi Im pregan
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:47.136Z [INFO]: Generated suggestion: "nt to discuss a potential project opportunity""
+2025-03-03T04:05:47.152Z [INFO]: Generated suggestion: "regnant"
+2025-03-03T04:05:47.198Z [INFO]: Processing autocomplete request for text: "hi Im pregant
+--
+
+Best Regards,
+Aman Purohit (he/him)
+
+Portfolio | Linkedin | GitHub"
+2025-03-03T04:05:47.310Z [INFO]: Generated suggestion: "nt to discuss a potential project opportunity""
+2025-03-03T04:05:47.568Z [INFO]: Generated suggestion: ""...and I'm writing to inform you that I'll be taking some time off for maternity leave. Could we discuss the details of my absence and how it will impact our current projects?""
+2025-03-03T04:06:18.843Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:19.121Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:43.411Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:43.975Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:44.288Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:44.509Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:45.038Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:45.283Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:45.295Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:45.521Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:45.549Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:45.778Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:45.782Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:45.975Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:46.082Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:46.182Z [INFO]: Processing autocomplete request for text: "Hello, how are"
+2025-03-03T04:06:46.414Z [INFO]: Generated suggestion: "you doing today?"
+2025-03-03T04:06:46.479Z [INFO]: Generated suggestion: "you doing today?"
