@@ -1,36 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "Gmail AI Autocomplete",
+  "name": "Gmail Autocomplete",
   "version": "1.0",
-  "description": "Autocomplete suggestions for Gmail compose box using AI.",
-  "permissions": ["activeTab", "storage"],
-  "host_permissions": ["https://mail.google.com/*"],
+  "description": "Autocomplete for Gmail compose box.",
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
       "matches": ["https://mail.google.com/*"],
-      "js": ["content.js"],
-      "css": ["assets/output.css"]
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": ["assets/output.css"],
-      "matches": ["https://mail.google.com/*"]
+      "js": ["content.js"]
     }
   ],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-
-    }
+    "default_popup": "popup.html"
   },
-  "icons": {
-
-  },
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self';"
-  }
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["http://localhost:5001/*"]
 }

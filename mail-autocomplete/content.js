@@ -1,127 +1,117 @@
+let debounceTimer;
 
-// console.log("Gmail Autocomplete Extension Loaded");
+// Create the suggestion div that will be shown near the cursor (caret)
+const suggestionDiv = document.createElement("div");
+suggestionDiv.style.position = "absolute";
+suggestionDiv.style.padding = "10px";
+suggestionDiv.style.backgroundColor = "lightgray";
+suggestionDiv.style.color = "black";
+suggestionDiv.style.opacity = "0.8";
+suggestionDiv.style.borderRadius = "5px";
+suggestionDiv.style.fontSize = "14px";
+suggestionDiv.style.display = "none"; // Initially hidden
+suggestionDiv.style.cursor = "pointer"; // Makes the suggestion clickable
+suggestionDiv.style.zIndex = "9999"; // Ensure it's above the compose box
+document.body.appendChild(suggestionDiv);
 
-// let lastInput = ""; // Track last input to prevent repeated requests
-// let suggestion = ""; // Store the latest suggestion
+document.addEventListener("input", async () => {
+    clearTimeout(debounceTimer); // Reset debounce timer
 
-// document.addEventListener("input", async (event) => {
-//     const composeBox = document.querySelector('[aria-label="Message Body"]');
+    debounceTimer = setTimeout(async () => {
+        const composeBox = document.querySelector(
+            'div[aria-label="Message Body"][contenteditable="true"]'
+        );
+        const subjectBox = document.querySelector(
+            'input[aria-label="Subject"]'
+        );
 
-//     if (!composeBox) return;
+        if (!composeBox) return;
 
-//     const text = composeBox.innerText.trim();
+        let text = composeBox.innerText.trim();
+        let subject = subjectBox ? subjectBox.value.trim() : "";
 
-//     if (text.length < 3 || text === lastInput) return;
-//     lastInput = text;
+        removeSuggestion(); // Remove old suggestion if user keeps typing
 
-//     console.log("Requesting suggestion for:", text);
+        if (text.length < 3 && subject.length < 3) {
+            suggestionDiv.style.display = "none"; // Hide suggestion if both subject and body are short
+            return;
+        }
 
-//     try {
-//         const response = await fetch("http://localhost:5001/autocomplete", {
-//             method: "POST",
-//             headers: { "Content-Type": "application/json" },
-//             body: JSON.stringify({ text, context: "Gmail Compose" })
-//         });
+        console.log("Sending request for:", text, subject);
 
-//         const data = await response.json();
-//         suggestion = data.suggestion || "";
+        try {
+            const response = await fetch("http://localhost:5001/autocomplete", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ text, subject }) // Send both subject and body
+            });
 
-//         if (suggestion) {
-//             showSuggestion(composeBox, text, suggestion);
-//         }
-//     } catch (error) {
-//         console.error("Error fetching autocomplete:", error);
-//     }
-// });
+            const data = await response.json();
+            const suggestion = data.suggestion || "";
 
-// function showSuggestion(target, userText, suggestionText) {
-//     // Remove any existing suggestion spans
-//     const existingSuggestion = document.getElementById("autocomplete-suggestion");
-//     if (existingSuggestion) existingSuggestion.remove();
+            if (suggestion) {
+                showSuggestion(suggestion);
+            }
+        } catch (error) {
+            console.error("Error fetching autocomplete:", error);
+        }
+    }, 300);
+});
 
-//     if (!suggestionText.startsWith(userText)) {
-//         suggestionText = userText + suggestionText;
-//     }
+function showSuggestion(suggestion) {
+    suggestionDiv.textContent = suggestion; // Update the suggestion text
+    suggestionDiv.style.display = "block"; // Show the suggestion div
+    positionSuggestionNearCaret();
+}
 
-//     // Create a span to show the suggestion in gray
-//     const suggestionSpan = document.createElement("span");
-//     suggestionSpan.id = "autocomplete-suggestion";
-//     suggestionSpan.style.color = "gray";
-//     suggestionSpan.style.opacity = "0.6"; // Light gray effect
-//     suggestionSpan.style.userSelect = "none"; // Prevent selection
-//     suggestionSpan.innerText = suggestionText.slice(userText.length); // Show only the new part
-
-//     target.appendChild(suggestionSpan);
-// }
-
-// // Accept suggestion with "Tab"
-// document.addEventListener("keydown", (e) => {
-//     if (e.key === "Tab") {
-//         e.preventDefault(); // Prevent default tab behavior
-//         const composeBox = document.querySelector('[aria-label="Message Body"]');
-//         if (composeBox && suggestion) {
-//             composeBox.innerText += suggestion.slice(lastInput.length);
-//             document.getElementById("autocomplete-suggestion")?.remove();
-//             suggestion = ""; // Clear applied suggestion
-//         }
-//     }
-// });
-
-console.log("✅ Gmail AI Autocomplete Loaded");
-
-let lastInput = ""; // Track last input to avoid redundant requests
-
-document.addEventListener("input", async (event) => {
-    const composeBox = document.querySelector('[aria-label="Message Body"]');
+// Function to position the suggestion div near the caret
+function positionSuggestionNearCaret() {
+    const composeBox = document.querySelector(
+        'div[aria-label="Message Body"][contenteditable="true"]'
+    );
 
     if (!composeBox) return;
 
-    const text = composeBox.innerText.trim();
+    const selection = window.getSelection();
+    const range = selection.getRangeAt(0);
+    const rect = range.getBoundingClientRect(); // Get caret position
 
-    if (text.length < 3 || text === lastInput) return; 
-    lastInput = text;
+    // Calculate the position for the suggestion box (10px to the right and 5px below the caret)
+    suggestionDiv.style.left = `${rect.left + window.scrollX + 10}px`;
+    suggestionDiv.style.top = `${rect.top + window.scrollY + rect.height + 5}px`;
+}
 
-    console.log("🔎 Fetching suggestion for:", text);
-
-    try {
-        const response = await fetch("http://localhost:5001/autocomplete", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ text })
-        });
-
-        const data = await response.json();
-        const suggestion = data.suggestion?.trim() || "";
-
-        if (suggestion) {
-            showSuggestion(composeBox, suggestion);
-        }
-    } catch (error) {
-        console.error("❌ Error fetching autocomplete:", error);
-    }
+suggestionDiv.addEventListener("mouseover", () => {
+    suggestionDiv.style.opacity = "1"; // Make it more visible on hover
 });
 
-function showSuggestion(target, suggestion) {
-    // Remove any existing suggestion
-    const existing = document.querySelector(".ai-suggestion");
-    if (existing) existing.remove();
+suggestionDiv.addEventListener("mouseleave", () => {
+    suggestionDiv.style.opacity = "0.8"; // Restore opacity when hover is removed
+});
 
-    // Create suggestion span
-    const suggestionSpan = document.createElement("span");
-    suggestionSpan.classList.add("ai-suggestion");
-    suggestionSpan.style.color = "gray";
-    suggestionSpan.style.opacity = "0.6";
-    suggestionSpan.innerText = " " + suggestion;
+// Handle click on the suggestion div
+suggestionDiv.addEventListener("click", () => {
+    const composeBox = document.querySelector(
+        'div[aria-label="Message Body"][contenteditable="true"]'
+    );
 
-    // Append to Gmail compose box
-    target.appendChild(suggestionSpan);
+    if (!composeBox) return;
 
-    // Accept suggestion on 'Tab'
-    document.addEventListener("keydown", (e) => {
-        if (e.key === "Tab") {
-            e.preventDefault();
-            target.innerText += ` ${suggestion}`;
-            suggestionSpan.remove();
-        }
-    });
+    // Append the suggestion to the compose box
+    composeBox.innerText += " " + suggestionDiv.textContent;
+    removeSuggestion(); // Remove the suggestion div after selection
+    moveCursorToEnd(composeBox); // Move the cursor to the end of the input
+});
+
+function removeSuggestion() {
+    suggestionDiv.style.display = "none"; // Hide the suggestion div
+}
+
+function moveCursorToEnd(el) {
+    const range = document.createRange();
+    const sel = window.getSelection();
+    range.selectNodeContents(el);
+    range.collapse(false); // Move to the end
+    sel.removeAllRanges();
+    sel.addRange(range);
 }

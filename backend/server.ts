@@ -17,9 +17,9 @@ app.use(cors());
 
 app.post("/autocomplete", async (req: Request, res: Response) => {
     try {
-        const { text, context } = req.body;
+        const { text, subject } = req.body;
         console.log("text", text);
-        console.log("context", context);
+        console.log("context", subject);
 
         if (!text) {
             logger.warn("Autocomplete request missing text.");
@@ -27,15 +27,9 @@ app.post("/autocomplete", async (req: Request, res: Response) => {
         }
 
         logger.info(`Processing autocomplete request for text: "${text}"`);
-const prompt = `You are an AI assistant providing concise email autocomplete suggestions. Your goal is to complete the user's sentence in a professional and natural manner.
+const prompt = `
 
-- The user is composing an email.  
-- Suggest **only one** short and relevant continuation.  
-- Do not generate multiple options.  
-- Ensure the response is fluent and maintains the email's tone.  
-- Do not repeat the user's text.  
-
-User's email subject: ${context}  
+User's email subject: ${subject}  
 User is typing: "${text}"  
 Provide a concise and natural continuation:  
 `;
@@ -43,7 +37,15 @@ Provide a concise and natural continuation:
         const response = await groq.chat.completions.create({
             model: "llama3-8b-8192",
             messages: [
-                { role: "system", content: "You are an AI assistant that provides email autocomplete suggestions. you only return the completion nothing more!" },
+                { role: "system", content: `You are an AI assistant providing concise email autocomplete suggestions. Your goal is to complete the user's sentence in a professional and natural manner.
+
+- The user is composing an email.  
+- Suggest **only one** short and relevant continuation.  
+- Do not generate multiple options.  
+- Ensure the response is fluent and maintains the email's tone.  
+- Do not repeat the user's text. 
+- Do not enclose the suggestion in  ""
+- Do not suggest anyhting like "heres a suggestion or no context found.." ` },
                 { role: "user", content: prompt }
             ],
             max_tokens: 50,
